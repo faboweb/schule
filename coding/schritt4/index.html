@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Tutorial</title>
+</head>
+
+<body>
+    <p style="font-size: 3rem">Input und Selektoren</p>
+    <input placeholder="Wer ist doof?" />
+    <button onclick="beleidigen()">Beleidigen</button>
+
+    <script>
+        // eine Funktion ist wie ein mini Programm, dass man starten kann
+        function beleidigen() {
+            // document.querySelector wählt ein Element von der Seite aus
+            let input = document.querySelector('input')
+            // man kann den Wert von einem "input" Element mit .value auslesen
+            let zielperson = input.value
+
+            // man kann Buchstabenfolgen zusammenfügen in dem man sie mit "+" addiert
+            let beleidigung = zielperson + " ist doof"
+            alert(beleidigung)
+        }
+    </script>
+</body>
+
+</html>

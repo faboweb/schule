@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Tutorial</title>
+    <style>
+        .box1 {
+            border: 1px solid black;
+            background: green;
+        }
+
+        .box2 {
+            border: 1px dotted black;
+            background: red;
+        }
+
+        .box1,
+        .box2 {
+            height: 40px;
+            width: 40px;
+        }
+
+        /* dieser Style wird auf Elemente angewendet, die id="superBox" haben */
+        #superBox {
+            height: 80px;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="font-size: 3rem">IDs</p>
+
+    <div class="box1"></div>
+    <!-- IDs dürfen immer nur einmal vergeben werden -->
+    <div class="box2" id="superBox"></div>
+</body>
+
+</html>
