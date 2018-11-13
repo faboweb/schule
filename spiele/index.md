@@ -1,3 +1,11 @@
+# Wir werden Spielekritiker
+
+## Spiel des Tages
+
+### 13. November - https://www.miniclip.com/games/fist-of-awesome/en/
+
+## Spiele das Spiel des Tages und bewerte es anhand den nachfolgenden Kriterien
+
 ### Spielkonzept
 
 - Spielart
